@@ -30,23 +30,30 @@ public class MainActivity extends AppCompatActivity {
         int id = item.getItemId();
 
         if (id == R.id.action_open_notes) {
-            Toast.makeText(MainActivity.this, "Открыть записную книжку", Toast.LENGTH_SHORT).show();
+
 
             Intent intentNotes = new Intent(MainActivity.this, NotesActivity.class);
             MainActivity.this.startActivity(intentNotes);
             return true;
         }
         if (id == R.id.action_open_payment) {
-            Toast.makeText(MainActivity.this, "Открыть оплату", Toast.LENGTH_SHORT).show();
+
 
             Intent intentNotes = new Intent(MainActivity.this, PayActivity.class);
             MainActivity.this.startActivity(intentNotes);
             return true;
         }
         if (id == R.id.action_open_country) {
-            Toast.makeText(MainActivity.this, "Открыть Страны", Toast.LENGTH_SHORT).show();
+
 
             Intent intentNotes = new Intent(MainActivity.this, CountryActivity.class);
+            MainActivity.this.startActivity(intentNotes);
+            return true;
+        }
+        if (id == R.id.action_open_calendar) {
+
+
+            Intent intentNotes = new Intent(MainActivity.this, CalendarActivity.class);
             MainActivity.this.startActivity(intentNotes);
             return true;
         }

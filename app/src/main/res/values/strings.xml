@@ -37,4 +37,12 @@
         <item>Гомель</item>
         <item>Витебск</item>
     </string-array>
+
+    <string name="start_task">Дата-время старта задачи:</string>
+    <string name="end_task">Дата-время окончания задачи:</string>
+
+    <string name="error">Ошибка</string>
+    <string name="begin">\"старт: \"</string>
+    <string name="ending">\" окончаниe: \"</string>
+    <string name="calendar">Календарь</string>
 </resources>

@@ -26,4 +26,10 @@
         android:orderInCategory="100"
         android:title="@string/show_address"
         app:showAsAction="never" />
+
+    <item
+        android:id="@+id/action_open_calendar"
+        android:orderInCategory="100"
+        android:title="@string/calendar"
+        app:showAsAction="never" />
 </menu>
