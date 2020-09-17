@@ -1,3 +1,40 @@
 <resources>
     <string name="app_name">AppBar</string>
+    <string name="save">Сохранить</string>
+    <string name="data_save">Данные сохранены</string>
+    <string name="settings">Settings</string>
+    <string name="notebook">Записная книжка</string>
+
+    <string name="money_input">Ввод денег</string>
+    <string name="payment_Information">Информация об оплате</string>
+    <string name="ok">OK</string>
+    <string name="from_a_bank_card">С банковской карты</string>
+    <string name="from_a_mobile_phone">С мобильного телефона</string>
+    <string name="cash_at">Наличными по адресу</string>
+    <string name="go_payment_page">Переход на страницу оплаты</string>
+    <string name="pay">Оплата</string>
+
+    <string name="show_address">Показать адрес</string>
+    <string name="Russia">Россия</string>
+    <string name="Ukraine">Украина</string>
+    <string-array name="countries">
+        <item>Россия</item>
+        <item>Украина</item>
+        <item>Белоруссия</item>
+    </string-array>
+    <string-array name="r_cities">
+        <item>Санкт-Петербург</item>
+        <item>Саратов</item>
+        <item>Казань</item>
+    </string-array>
+    <string-array name="u_cities">
+        <item>Киев</item>
+        <item>Одесса</item>
+        <item>Харьков</item>
+    </string-array>
+    <string-array name="b_cities">
+        <item>Минск</item>
+        <item>Гомель</item>
+        <item>Витебск</item>
+    </string-array>
 </resources>
